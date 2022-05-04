@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth; /* Smoothly scrolls to the other section */
+}
+
+body {
+	margin: 0; /* Removes the default white border */
+}
+
+.navbar {
+  position: fixed; /* Navigation bar will stay at the top */
+  width: 100%;
+  
+  list-style-type: none; /* Removes the bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents content from going outside it */
+  background-color: #333333;
+  z-index: 99; /* Overlays other elements */
+}
+
+.navbar_list {
+  float: left;
+}
+
+.navbar_text {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes the underline */
+}
+
+.home_section {
+	background: #7DE8F6;
+	width: 100%;
+	height: 100vh;
+}
+
+.about_section {
+	background: #F4F3E0;
+	width: 100%;
+	height: 100vh;
+}
+
+.contact_section {
+	background: #E8F6F6;
+	width: 100%;
+	height: 100vh;
+}
+
+.text_column {
+	width: 50%;
+	height: 100%;
+	float: left;
+/* 	background: #fff2b3; */
+}
+
+.text_container {
+	position: relative;
+	width: 80%;
+	top: 100px; /* Pushes the container 100px down */
+	
+	/* Centers the container */
+	display: block;
+	margin: 0 auto;
+	/* ^^^	 */
+}
+
+.image {
+	position: relative;
+	top: 100px; /* Pushes the image 100px down */
+	width: 60%;
+	height: auto;
+	
+	/* Centers the image */
+	display: block;
+	margin: 0 auto;
+	/* ^^^	 */
+
+	border-radius: 40px;
+}
+
+.photo_column {
+	width: 50%;
+	height: 100%;
+	float: right;
+/* 	background: #66ffd1; */
+}
+
+footer {
+	width: 100%;
+	height: 140px;
+	background: #333333;
+}
+
+.footer_text {
+	position: relative; /* Allows us to move our text */
+	top: 90px; /* Makes it at the bottom of the footer */
+	left: 20px; /* Moves the text to the left */
+	display: inline-block; /* Only takes up the space it needs */
+	color: white;
+}
+
